@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dino01"
+    tools:context=".DemonActivity">
+
+    <Button
+        android:id="@+id/btnVideoDemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Video"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.903" />
+
+    <TextView
+        android:id="@+id/txtTexto"
+        android:layout_width="321dp"
+        android:layout_height="278dp"
+        android:autoText="false"
+        android:background="#45000000"
+        android:text="Grêmio F. B. P. A. (1998-2000) París Saint-Germain F. C. (2000-03) F. C. Barcelona (2003-08) A. C. Milan (2008-11) C. R. Flamengo (2011-12) Atlético Mineiro (2012-14) Querétaro F. C. (2014-15) Fluminense F. C. (2015)"
+        android:textColor="#FAF9F9"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.688" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
